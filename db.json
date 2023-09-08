@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Slant Board",
+      "price": "20.95",
+      "description": "Slant Board for Calf Stretching, 5 Adjustable Angles Foot Stretcher for Physical Therapy, 480 lbs Weight Capacity Incline Board Wedge for Home Exercise, Squats and Calf Stretch(Black)",
+      "category": "Health and Balance",
+      "image": "https://m.media-amazon.com/images/I/81LrvSxC4sL._AC_SX679_.jpg",
+      "quantity": 10
+    },
+    {
+      "id": "2",
+      "name": "Rest Cloud",
+      "price": "19.99",
+      "description": "Neck and Shoulder Relaxer, Cervical Traction Device for TMJ Pain Relief and Cervical Spine Alignment, Chiropractic Pillow, Neck Stretcher (Dark Blue)",
+      "category": "Health and Balance",
+      "image": "https://m.media-amazon.com/images/I/71xR22sQu+L._AC_SX679_.jpg",
+      "quantity": 10
+    },
+    {
+      "id": "3",
+      "name": "Teeter FitSpine X3 Inversion Table",
+      "price": "399.00",
+      "description": "Teeter FitSpine X3 Inversion Table, Deluxe Easy-to-Reach Ankle Lock, Back Pain Relief Kit, FDA-Registered",
+      "category": "Rehabilitation",
+      "image": "https://m.media-amazon.com/images/I/7129XSZEC2L._AC_SX679_.jpg",
+      "quantity": 10
+    },
+    {
+      "id": "4",
+      "name": "The Original Neck Hammock",
+      "price": "49.99",
+      "description": "The Original Neck Hammock Neck Stretcher - Cervical Traction Device for Neck Pain Relief - Easy to Use Neck Decompression Device - Portable Neck Traction Device for Neck Tension Relief",
+      "category": "Rehabilitation",
+      "image": "https://m.media-amazon.com/images/I/513oZ2f9yvL._AC_SX679_.jpg",
+      "quantity": 10
+    },
+    {
+      "id": "5",
+      "name": "MAGELUX Mini Massage Gun Deep Tissue Muscle Massager",
+      "price": "73.89",
+      "description": "Powerful Quiet Portable Percussion Neck Back Massagers for Athletes, Small Travel Pain Relief Handheld Massager",
+      "category": "Recovery",
+      "image": "https://m.media-amazon.com/images/I/61QPcc3Tf8L._AC_SX679_.jpg",
+      "quantity": 10
+    },
+    {
+      "id": "6",
+      "name": "TENS Unit and EMS 2-in-1 Electrotherapy Device",
+      "price": "89.95",
+      "description": "Tens Machine and Electrical Muscle Stimulator for Back, Neck, Shoulder Pain Relief, 12 Modes, 20 Intensity Levels for Relaxation and Muscle Stimulation",
+      "category": "Rehabilitation",
+      "image": "https://m.media-amazon.com/images/I/51VEAOxXl9L._AC_SX679_.jpg",
+      "quantity": 10
+    },
+    {
+      "id": "7",
+      "name": "Beachbody Exercise Mat",
+      "price": "34.00",
+      "description": "Thick Foam Mat for Jumping, Fitness, Gym or Home Workouts, Yoga, Ab workouts, Stretching, Weightlifting, Slip Resistant, High Density & Ultra Durable",
+      "category": "Fitness",
+      "image": "https://m.media-amazon.com/images/I/71y9OxaEFLS._AC_SX679_.jpg",
+      "quantity": 10
+    },
+    {
+      "id": "8",
+      "name": "Posture corrector",
+      "price": "28.89",
+      "description": "Yoga Sticks Stretching Tool,Retractable Design for Adult and Child (Gray)",
+      "category": "Health and Balance",
+      "image": "https://m.media-amazon.com/images/I/61h1M+1wYlL._SX522_.jpg",
+      "quantity": 10
+    },
+    {
+      "id": "9",
+      "name": "Goldmille Decompression Back Belt",
+      "price": "45.99",
+      "description": "Lumbar Spine Support for Lower Back Pain Relief - One Size Fits 29-49 Waist",
+      "category": "Rehabilitation",
+      "image": "https://m.media-amazon.com/images/I/71zcUJTLZkL._SX522_.jpg",
+      "quantity": 10
+    },
+    {
+      "id": "10",
+      "name": "Sparthos Back Brace for Lower Back Pain",
+      "price": "27.97",
+      "description": "Immediate Relief from Sciatica, Herniated Disc, Scoliosis - Breathable Design With Lumbar Support Pad - For Home & Lifting At Work - For Men & Women - (Large)",
+      "category": "Health and Balance",
+      "image": "https://m.media-amazon.com/images/I/519Dx-tHqDL._SY445_SX342_QL70_FMwebp_.jpg",
+      "quantity": 10
+    }
+  ]
+}
