@@ -6,7 +6,7 @@ function Madeyalook() {
         <div className="about">
             <h1>About Us</h1>
             <p>
-                Welcome to our physical therapy item store! At [Your Store Name], we are passionate about helping people
+                Welcome to our physical therapy item store! At Contour Therapy, we are passionate about helping people
                 improve their well-being through quality physical therapy products and
                 equipment.
             </p>
@@ -53,7 +53,7 @@ function Madeyalook() {
             <p>
                 If you have any questions, feedback, or would like to inquire about our
                 products, please feel free to contact us through our{' '}
-                <a href="/contact">Contact Us</a> page.
+                <a href="/contact">Don't Contact Us!</a> page.
             </p>
         </div>
     )
