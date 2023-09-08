@@ -2,20 +2,20 @@
   "products": [
     {
       "id": "1",
-      "name": "Slant Board",
-      "price": "20.95",
-      "description": "Slant Board for Calf Stretching, 5 Adjustable Angles Foot Stretcher for Physical Therapy, 480 lbs Weight Capacity Incline Board Wedge for Home Exercise, Squats and Calf Stretch(Black)",
-      "category": "Health and Balance",
-      "image": "https://m.media-amazon.com/images/I/81LrvSxC4sL._AC_SX679_.jpg",
-      "quantity": 10
-    },
-    {
-      "id": "2",
       "name": "Rest Cloud",
       "price": "19.99",
       "description": "Neck and Shoulder Relaxer, Cervical Traction Device for TMJ Pain Relief and Cervical Spine Alignment, Chiropractic Pillow, Neck Stretcher (Dark Blue)",
       "category": "Health and Balance",
       "image": "https://m.media-amazon.com/images/I/71xR22sQu+L._AC_SX679_.jpg",
+      "quantity": 10
+    },
+    {
+      "id": "2",
+      "name": "Slant Board",
+      "price": "20.95",
+      "description": "Slant Board for Calf Stretching, 5 Adjustable Angles Foot Stretcher for Physical Therapy, 480 lbs Weight Capacity Incline Board Wedge for Home Exercise, Squats and Calf Stretch(Black)",
+      "category": "Health and Balance",
+      "image": "https://m.media-amazon.com/images/I/81LrvSxC4sL._AC_SX679_.jpg",
       "quantity": 10
     },
     {

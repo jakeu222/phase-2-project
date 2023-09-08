@@ -222,7 +222,10 @@ form {
 .headerStyle {
   background-color: #19aed9;
   color: #fff;
-  border: white;
+  border: grey;
+  border-width: 5px;
+  padding: 10px 20px;
+
   margin-right: 20px;
 
 
@@ -348,5 +351,4 @@ a:hover {
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
-
 }

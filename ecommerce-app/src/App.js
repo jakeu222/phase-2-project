@@ -28,6 +28,8 @@ function App() {
       <Router>
 
         <nav className='navbar'>
+
+          <img className="logoStyle" src="https://physicaltherapyqueensny.com/wp-content/uploads/2021/07/cropped-Bayside-Physical-Therapy-Logo.png" alt="logo" />
           <h2></h2>
           <Link to="/">Home</Link>
           <NavLink to="/madeyalook">About</NavLink>
@@ -35,9 +37,8 @@ function App() {
           <NavLink to="/madeyalookagain">Cart</NavLink>
 
 
-
         </nav>
-        <header className="headerStyle">
+        <header className="headerStyle" >
           <h1 className="titleStyle">Contour Therapy</h1>
           <p className="subtitleStyle">Your Path to Wellness and Balance</p>
 
