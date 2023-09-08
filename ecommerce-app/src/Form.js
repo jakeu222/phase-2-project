@@ -9,6 +9,7 @@ function Form({ addNewItem }) {
         category: "",
         image: "",
         stock: "",
+        quantity: "",
 
     })
 
@@ -27,7 +28,7 @@ function Form({ addNewItem }) {
             description: form.description,
             category: form.category,
             image: form.image,
-            stock: form.stock
+            quantity: form.quantity
         }
         fetch("http://localhost:3001/products", {
             method: "POST",
@@ -65,7 +66,7 @@ function Form({ addNewItem }) {
 
                 <input type="text" name="image" placeholder="Product Image" value={form.image} onChange={handleChange} />
 
-                <input type="text" name='quantity' placeholder="Product Quantity" value={form.quantity} onChange={handleChange} />
+                <input type="number" name='quantity' placeholder="Product Quantity" value={form.quantity} onChange={handleChange} />
 
                 <button type="submit">Submit</button>
             </form >
