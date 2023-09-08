@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import List from './List'
-// import Card from './Card'
+import Card from './Card'
 import Search from './Search'
 import Form from './Form'
 
@@ -22,12 +22,13 @@ function Container() {
     function addNewItem(newItem) {
         setInvintory([...invintory, newItem])
     }
+    // function addToCart
 
     return (
-        <div>
+        <div className='container'>
             <Search setSearch={setSearch} />
-            <Form addNewItem={addNewItem} />
             <List invintory={filteredInvintory} />
+
 
         </div>
     )

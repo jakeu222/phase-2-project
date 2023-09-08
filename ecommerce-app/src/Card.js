@@ -21,7 +21,7 @@ function Card({ item }) {
                 <br />
 
 
-                <button>Add to Cart</button>
+                <button className='add-cart' >Add to Cart</button>
                 <br />
 
 

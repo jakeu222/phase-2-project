@@ -3,7 +3,10 @@ import React from 'react';
 
 function Madeyalookagain() {
     return (
-        <h1>Made ya look again</h1>
+        <div>
+            <h1>Made you look!</h1>
+            <img src="https://media.tenor.com/lGbEhryzcV8AAAAd/made-you-look.gif" alt="Made ya look image" />
+        </div>
     )
 }
 

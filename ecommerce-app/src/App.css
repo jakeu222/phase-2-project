@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: rgb(255, 255, 255);
 }
 
 /* .App-logo {
@@ -37,3 +38,45 @@
     transform: rotate(360deg);
   }
 } */
+
+/* App.css */
+
+.navbar {
+
+
+
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 16px;
+  text-align: center;
+
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(20, 19, 19);
+  margin: 10px;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+
+
+}
+
+.headerStyle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.titleStyle {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.subtitleStyle {
+  font-size: 18px;
+}

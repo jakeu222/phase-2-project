@@ -45,7 +45,7 @@ function Form({ addNewItem }) {
 
     return (
         <div className='form'>
-            <label>Add Item</label>
+            <button >Add Item</button>
             <form onSubmit={handleSubmit}>
 
                 <input type="text"

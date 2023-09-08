@@ -1,36 +1,69 @@
 
 import './App.css';
-import Header from './Header';
 import Container from './Container';
-import Navbar from './Navbar';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link, NavLink } from 'react-router-dom';
 import Madeyalook from './Madeyalook';
 import Madeyalookagain from './Madeyalookagain';
-import Search from './Search';
-import List from './List';
 import Form from './Form';
+// import Header from './Header';
+// import Navbar from './Navbar';
+// import Search from './Search';
+// import List from './List';
+import React, { useState } from 'react';
+import Home from './Home';
+import Cart from './Cart';
 
 function App() {
+  const [cart, setCart] = useState([]);
+
+
+
+
+
+
+
   return (
 
     <div className="App">
-      <Navbar />
-
-      <Header />
       <Router>
 
-        <Routes>
-
-          <Route exact path="/" element={<Container />} />
-          <Route path="/Madeyalook" element={<List />} />
-          <Route path="/Madeyalookagain" element={<Form />} />
-
-
-
+        <nav className='navbar'>
+          <h2></h2>
+          <Link to="/">Home</Link>
+          <NavLink to="/madeyalook">About</NavLink>
+          <NavLink to="/Form">Add Item</NavLink>
+          <NavLink to="/madeyalookagain">Cart</NavLink>
 
 
-        </Routes>
+
+        </nav>
+        <header className="headerStyle">
+          <h1 className="titleStyle">Contour Therapy</h1>
+          <p className="subtitleStyle">Your Path to Wellness and Balance</p>
+
+
+        </header>
+        <manin>
+
+          <Routes>
+
+            <Route exact path="/" element={<Container />} />
+            <Route path="/madeyalook" element={<Madeyalook />} />
+            <Route path="/madeyalookagain" element={<Madeyalookagain />} />
+            <Route path="/form" element={<Form />} />
+
+
+
+
+
+          </Routes>
+        </manin>
+        <footer className="footerStyle">
+          Copyright &copy; 2023 Contour Therapy
+        </footer>
+
       </Router>
+
 
 
     </div>
@@ -39,3 +72,7 @@ function App() {
 }
 
 export default App;
+
+
+
+
